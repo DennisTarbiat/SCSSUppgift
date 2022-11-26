@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Righteous&display=swap");
+
+.container {
+  display: flex;
+  margin: auto;
+  width: 85vw;
+
+  aside {
+    margin-top: 2%;
+    display: inline-flex;
+    flex-direction: column;
+    width: 20%;
+
+    .current {
+      text-decoration: underline;
+      background-color: rgb(73, 77, 139);
+    }
+
+    a {
+      display: flex;
+      justify-content: center;
+      color: rgb(255, 255, 255);
+      font-size: 2em;
+      font-family: "Righteous", cursive;
+      text-decoration: none;
+      background-color: rgb(32, 33, 49);
+      margin-right: 30%;
+      margin-bottom: 5%;
+      border-radius: 15px;
+      padding: 2%;
+    }
+
+    .current:hover {
+      text-decoration: underline;
+    }
+
+    a:hover {
+      display: flex;
+      justify-content: center;
+      color: rgb(255, 255, 255);
+      font-size: 2em;
+      font-family: "Righteous", cursive;
+      text-decoration: none;
+      background-color: rgb(62, 74, 143);
+      margin-right: 30%;
+      margin-bottom: 5%;
+      border-radius: 15px;
+      padding: 2%;
+    }
+  }
+
+  main {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Righteous", cursive;
+
+    .bottom {
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 5em;
+      margin-top: 2%;
+      margin-bottom: 10%;
+      gap: 2em;
+
+      .option {
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        width: 30%;
+        border-radius: 15px;
+        box-shadow: -5px 5px 5px 5px #e2e2e2;
+        max-height: 41vh;
+
+        .hidden {
+          display: none;
+        }
+
+        .moreText {
+          padding: 5%;
+        }
+        .more {
+          text-decoration: none;
+          color: rgb(12, 82, 235);
+          font-weight: bold;
+        }
+
+        .descripton {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          width: 100%;
+
+          .arrow {
+            margin: 4% 5% 0 0%;
+          }
+
+          .arrow2 {
+            margin: 4% 5% 0 0%;
+          }
+
+          .hide {
+            margin: 4% 5% 0 0%;
+            display: none;
+          }
+
+          .arrow:hover {
+            cursor: pointer;
+          }
+
+          .arrow2:hover {
+            cursor: pointer;
+          }
+
+          h6 {
+            font-size: 15px;
+          }
+        }
+
+        img {
+          width: 100%;
+          background-color: rgb(32, 33, 49);
+          border-radius: 15px;
+        }
+
+        .more {
+          align-self: end;
+          margin-right: 5%;
+          margin-top: 2em;
+          padding-bottom: 3%;
+        }
+        h2 {
+          margin: 5% 0 0 5%;
+        }
+        h4 {
+          margin: 0 0 0 5%;
+          color: rgb(64, 82, 184);
+        }
+        h6 {
+          margin: 5% 0 0 5%;
+        }
+      }
+
+      .visible {
+        max-height: none;
+      }
+    }
+  }
+}
