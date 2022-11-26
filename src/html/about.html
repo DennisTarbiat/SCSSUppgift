@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../scss/css/about.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <script type="module" src="../js/about.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <aside>
+        <a href="../index.html">Home</a>
+        <a href="warehouse.html">All Cars</a>
+        <a href="sell.html">Sell Car</a>
+        <a href="about.html" class="current">About Us</a>
+      </aside>
+      <main>
+        <h1>About us</h1>
+        <div class="about">
+          <h2>About the company</h2>
+          <p>
+            The plant is notorious for being poorly maintained, largely due to
+            owner Charles Montgomery Burns' miserliness and safety inspector
+            Homer Simpson's incompetence. A surprise inspection found over 342
+            violations with an estimated $56 million required to bring the plant
+            up to code, money which Burns refused to spend. Notable safety
+            violations that have been seen include luminous rats in the bowels
+            of the building, pipes and drums leaking radioactive waste, the
+            disposal of waste in a children's playground, plutonium used as a
+            paperweight, cracked cooling towers (fixed in one episode using a
+            piece of chewing gum), skeletons in the basement, dangerously high
+            Geiger counter readings around the perimeter of the plant, flashing
+            red alert signs being ignored by employees, the creation of a mutant
+            subspecies of three-eyed fish and a horrific giant spider. The
+            Emergency Exits are simply painted on.
+          </p>
+          <h2>About the teamet</h2>
+          <p>
+            A break room is where most staff spend their coffee breaks. The room
+            is usually stocked with coffee and donuts. There is a bulletin board
+            on the wall that has a poster showing how to perform the Heimlich
+            Maneuver.
+          </p>
+          <h2>Head of operation</h2>
+          <p>
+            Charles Montgomery Plantagenet Schicklgruber Burns, also known as
+            Monty Burns, Montgomery Burns, C.M. Burns, and Mr. Burns, is the
+            owner of the Springfield Nuclear Power Plant and the main antagonist
+            of The Simpsons franchise. He is Springfield's richest, oldest, and
+            most powerful citizen. His net worth has been stated to be in the
+            billions and in one instance was pegged at exactly $1,800,037,022.
+          </p>
+        </div>
+        <div class="vd">
+          <img src="../images/mr-burns.jpg" />
+          <div>
+            <h4>Mr. Burns VD</h4>
+            <a
+              href="tel:0790004445"
+              onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"
+              ><p class="call-button">0790004445</p></a
+            >
+            <a href="mailto:mr.burns@gmail.com" class="lastText"
+              >mr.burns@gmail.com</a
+            >
+          </div>
+        </div>
+        <h2>The Team:</h2>
+        <img class="team-image" src="../images/team.jpg" />
+        <div class="showAfter hidden">
+          <h2>Thanks for the message!</h2>
+        </div>
+        <div class="showBefore">
+          <h2>Contact us:</h2>
+          <div class="submit">
+            <div class="text">
+              <label for="name">Name:</label>
+              <label for="mail">Email:</label>
+              <label for="message">Message:</label>
+            </div>
+            <div class="input">
+              <input type="text" id="name" name="name" required />
+              <input type="email" id="email" name="mail" required="email" />
+              <textarea
+                id="message"
+                name="message"
+                rows="10"
+                placeholder="Write a message..."
+              ></textarea>
+              <input type="submit" id="button" />
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
