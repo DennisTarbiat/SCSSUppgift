@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Righteous&display=swap");
+.container {
+  display: flex;
+  margin: auto;
+  width: 85vw;
+}
+.container aside {
+  margin-top: 2%;
+  display: inline-flex;
+  flex-direction: column;
+  width: 30%;
+}
+.container aside .current {
+  text-decoration: underline;
+  background-color: rgb(73, 77, 139);
+}
+.container aside a {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  font-family: "Righteous", cursive;
+  text-decoration: none;
+  background-color: rgb(32, 33, 49);
+  margin-right: 30%;
+  margin-bottom: 5%;
+  border-radius: 15px;
+  padding: 2%;
+}
+.container aside .current:hover {
+  text-decoration: underline;
+}
+.container aside a:hover {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  font-family: "Righteous", cursive;
+  text-decoration: none;
+  background-color: rgb(62, 74, 143);
+  margin-right: 30%;
+  margin-bottom: 5%;
+  border-radius: 15px;
+  padding: 2%;
+}
+.container main {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  font-family: "Righteous", cursive;
+}
+.container main h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 4em;
+}
+.container main h2 {
+  text-decoration: underline;
+}
+.container main .team-image {
+  width: 80%;
+}
+.container main p {
+  width: 50%;
+}
+.container main img {
+  width: 50%;
+}
+.container main .vd {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.container main .vd a {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+.container main .vd a:hover {
+  color: blue;
+}
+.container main .vd .lastText {
+  margin-bottom: 40%;
+}
+.container main .showAfter {
+  margin-left: 20%;
+  margin-bottom: 20%;
+  max-width: 40%;
+}
+.container main .showAfter h2 {
+  display: inline-block;
+  font-size: 3em;
+  font-family: "Dancing Script", cursive;
+  text-decoration: none;
+  background-color: rgb(73, 77, 139);
+  color: white;
+  padding: 2%;
+  border-radius: 15px;
+}
+.container main .submit {
+  width: 70%;
+  background-color: rgb(73, 77, 139);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding: 5% 0 5% 5%;
+  border-radius: 15px;
+}
+.container main .submit .text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.container main .submit .text label {
+  display: flex;
+  flex-direction: row;
+}
+.container main .submit .input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.container main .submit .input input {
+  width: 70%;
+}
+.container main .submit .input textarea {
+  width: 70%;
+}
+.container main .submit .input #button {
+  width: 71%;
+}
+.container .hidden {
+  display: none;
+}/*# sourceMappingURL=about.css.map */
