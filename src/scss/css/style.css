@@ -1,22 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Righteous&display=swap");
 .container {
   display: flex;
-  justify-content: center;
+  margin: auto;
+  width: 85vw;
 }
 .container aside {
-  padding-top: 5%;
+  margin-top: 2%;
+  display: inline-flex;
+  flex-direction: column;
+  width: 30%;
 }
-.container aside p {
-  margin: 0;
+.container aside .current {
+  text-decoration: underline;
+  background-color: rgb(73, 77, 139);
+}
+.container aside a {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  font-family: "Righteous", cursive;
+  text-decoration: none;
+  background-color: rgb(32, 33, 49);
+  margin-right: 30%;
+  margin-bottom: 5%;
+  border-radius: 15px;
+  padding: 2%;
+}
+.container aside .current:hover {
+  text-decoration: underline;
+}
+.container aside a:hover {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  font-family: "Righteous", cursive;
+  text-decoration: none;
+  background-color: rgb(62, 74, 143);
+  margin-right: 30%;
+  margin-bottom: 5%;
+  border-radius: 15px;
+  padding: 2%;
 }
 .container main {
-  max-width: 60%;
-}
-.container main section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.container main section img {
   max-width: 80%;
-  height: 50%;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+  gap: 5em;
+}
+.container main .top {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(62, 74, 143);
+  border-radius: 30px;
+  font-size: 400%;
+  font-family: "Dancing Script", cursive;
+}
+.container main .top h1 {
+  color: white;
+  align-self: flex-start;
+  padding-left: 10%;
+  padding-top: 2%;
+}
+.container main .top img {
+  max-width: 50%;
+  height: 100%;
+  padding-right: 5%;
+}
+.container main .bottom {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 5em;
+  margin-bottom: 10%;
+  font-family: "Righteous", cursive;
+}
+.container main .bottom .option {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  width: 30%;
+  border-radius: 15px;
+  box-shadow: -5px 5px 5px 5px #e2e2e2;
+  max-height: 41vh;
+}
+.container main .bottom .option .hidden {
+  display: none;
+}
+.container main .bottom .option .moreText {
+  padding: 5%;
+}
+.container main .bottom .option .more {
+  text-decoration: none;
+  color: rgb(12, 82, 235);
+  font-weight: bold;
+}
+.container main .bottom .option .descripton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.container main .bottom .option .descripton .arrow {
+  margin: 4% 5% 0 0%;
+}
+.container main .bottom .option .descripton .arrow2 {
+  margin: 4% 5% 0 0%;
+}
+.container main .bottom .option .descripton .hide {
+  margin: 4% 5% 0 0%;
+  display: none;
+}
+.container main .bottom .option .descripton .arrow:hover {
+  cursor: pointer;
+}
+.container main .bottom .option .descripton .arrow2:hover {
+  cursor: pointer;
+}
+.container main .bottom .option .descripton h6 {
+  font-size: 15px;
+}
+.container main .bottom .option img {
+  width: 100%;
+  background-color: rgb(32, 33, 49);
+  border-radius: 15px;
+}
+.container main .bottom .option .more {
+  align-self: end;
+  margin-right: 5%;
+  margin-top: 2em;
+  padding-bottom: 3%;
+}
+.container main .bottom .option h2 {
+  margin: 5% 0 0 5%;
+}
+.container main .bottom .option h4 {
+  margin: 0 0 0 5%;
+  color: rgb(64, 82, 184);
+}
+.container main .bottom .option h6 {
+  margin: 5% 0 0 5%;
+}
+.container main .bottom .visible {
+  max-height: none;
 }/*# sourceMappingURL=style.css.map */
