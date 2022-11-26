@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Righteous&display=swap");
+
+.container {
+  display: flex;
+  margin: auto;
+  width: 86vw;
+  aside {
+    margin-top: 2%;
+    display: inline-flex;
+    flex-direction: column;
+    width: 20%;
+
+    .current {
+      text-decoration: underline;
+      background-color: rgb(73, 77, 139);
+    }
+
+    a {
+      display: flex;
+      justify-content: center;
+      color: rgb(255, 255, 255);
+      font-size: 2em;
+      font-family: "Righteous", cursive;
+      text-decoration: none;
+      background-color: rgb(32, 33, 49);
+      margin-right: 30%;
+      margin-bottom: 5%;
+      border-radius: 15px;
+      padding: 2%;
+    }
+
+    .current:hover {
+      text-decoration: underline;
+    }
+
+    a:hover {
+      display: flex;
+      justify-content: center;
+      color: rgb(255, 255, 255);
+      font-size: 2em;
+      font-family: "Righteous", cursive;
+      text-decoration: none;
+      background-color: rgb(62, 74, 143);
+      margin-right: 30%;
+      margin-bottom: 5%;
+      border-radius: 15px;
+      padding: 2%;
+    }
+  }
+
+  main {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 3%;
+    font-family: "Righteous", cursive;
+
+    input {
+      padding-left: 1%;
+      color: white;
+      background-color: rgb(62, 74, 143);
+      border-radius: 15px;
+      height: 8%;
+    }
+
+    #name {
+      max-width: 30%;
+    }
+
+    #date {
+      max-width: 20%;
+    }
+
+    #number {
+      max-width: 20%;
+    }
+
+    label {
+      font-size: 2em;
+
+      #image1 {
+        padding-top: 1%;
+        width: 20%;
+        height: 100%;
+        background-color: rgb(62, 74, 143);
+      }
+      #image2 {
+        padding-top: 1%;
+        width: 20%;
+        height: 100%;
+        background-color: rgb(62, 74, 143);
+      }
+
+      #image3 {
+        padding-top: 1%;
+        width: 20%;
+        height: 100%;
+        background-color: rgb(62, 74, 143);
+      }
+      #image4 {
+        padding-top: 1%;
+        width: 20%;
+        height: 100%;
+        background-color: rgb(62, 74, 143);
+      }
+    }
+
+    .images {
+      margin: 3% 0 3% 0;
+    }
+
+    textarea {
+      max-width: 50%;
+      background-color: rgb(62, 74, 143);
+      border-radius: 15px;
+      color: white;
+      padding-left: 1%;
+      padding-top: 1%;
+    }
+
+    ::-webkit-input-placeholder {
+      color: white;
+      padding-left: 1%;
+      padding-top: 1%;
+      opacity: 60%;
+    }
+    select {
+      width: 20%;
+      height: 10%;
+      color: white;
+      background-color: rgb(62, 74, 143);
+      border-radius: 15px;
+      font-family: "Righteous", cursive;
+      font-size: 1em;
+    }
+
+    .submit {
+      margin-top: 2%;
+      color: white;
+      background-color: rgb(62, 74, 143);
+      width: 20%;
+      height: 20%;
+      font-family: "Righteous", cursive;
+      font-size: 2em;
+      border-radius: 15px;
+    }
+
+    .submit:hover {
+      margin-top: 2%;
+      background-color: rgb(24, 29, 54);
+      width: 20%;
+      height: 20%;
+      font-family: "Righteous", cursive;
+      font-size: 2em;
+      border-radius: 15px;
+    }
+  }
+}

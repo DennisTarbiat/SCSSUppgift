@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Righteous&display=swap");
+.container {
+  display: flex;
+  margin: auto;
+  width: 86vw;
+}
+.container aside {
+  margin-top: 2%;
+  display: inline-flex;
+  flex-direction: column;
+  width: 20%;
+}
+.container aside .current {
+  text-decoration: underline;
+  background-color: rgb(73, 77, 139);
+}
+.container aside a {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  font-family: "Righteous", cursive;
+  text-decoration: none;
+  background-color: rgb(32, 33, 49);
+  margin-right: 30%;
+  margin-bottom: 5%;
+  border-radius: 15px;
+  padding: 2%;
+}
+.container aside .current:hover {
+  text-decoration: underline;
+}
+.container aside a:hover {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  font-family: "Righteous", cursive;
+  text-decoration: none;
+  background-color: rgb(62, 74, 143);
+  margin-right: 30%;
+  margin-bottom: 5%;
+  border-radius: 15px;
+  padding: 2%;
+}
+.container main {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 3%;
+  font-family: "Righteous", cursive;
+}
+.container main input {
+  padding-left: 1%;
+  color: white;
+  background-color: rgb(62, 74, 143);
+  border-radius: 15px;
+  height: 8%;
+}
+.container main #name {
+  max-width: 30%;
+}
+.container main #date {
+  max-width: 20%;
+}
+.container main #number {
+  max-width: 20%;
+}
+.container main label {
+  font-size: 2em;
+}
+.container main label #image1 {
+  padding-top: 1%;
+  width: 20%;
+  height: 100%;
+  background-color: rgb(62, 74, 143);
+}
+.container main label #image2 {
+  padding-top: 1%;
+  width: 20%;
+  height: 100%;
+  background-color: rgb(62, 74, 143);
+}
+.container main label #image3 {
+  padding-top: 1%;
+  width: 20%;
+  height: 100%;
+  background-color: rgb(62, 74, 143);
+}
+.container main label #image4 {
+  padding-top: 1%;
+  width: 20%;
+  height: 100%;
+  background-color: rgb(62, 74, 143);
+}
+.container main .images {
+  margin: 3% 0 3% 0;
+}
+.container main textarea {
+  max-width: 50%;
+  background-color: rgb(62, 74, 143);
+  border-radius: 15px;
+  color: white;
+  padding-left: 1%;
+  padding-top: 1%;
+}
+.container main ::-webkit-input-placeholder {
+  color: white;
+  padding-left: 1%;
+  padding-top: 1%;
+  opacity: 60%;
+}
+.container main select {
+  width: 20%;
+  height: 10%;
+  color: white;
+  background-color: rgb(62, 74, 143);
+  border-radius: 15px;
+  font-family: "Righteous", cursive;
+  font-size: 1em;
+}
+.container main .submit {
+  margin-top: 2%;
+  color: white;
+  background-color: rgb(62, 74, 143);
+  width: 20%;
+  height: 20%;
+  font-family: "Righteous", cursive;
+  font-size: 2em;
+  border-radius: 15px;
+}
+.container main .submit:hover {
+  margin-top: 2%;
+  background-color: rgb(24, 29, 54);
+  width: 20%;
+  height: 20%;
+  font-family: "Righteous", cursive;
+  font-size: 2em;
+  border-radius: 15px;
+}/*# sourceMappingURL=sell.css.map */
